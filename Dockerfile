@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get update
-RUN apt-get install -y curl tcpflow vim jq netcat
+RUN apt update
+RUN apt install -y curl tcpflow vim jq netcat kafkacat redis-tools
 
 ENTRYPOINT bash
