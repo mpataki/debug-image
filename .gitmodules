@@ -1,0 +1,6 @@
+[submodule "kcat"]
+	path = kcat
+	url = git@github.com:edenhill/kcat.git
+[submodule "libserdes"]
+	path = libserdes
+	url = git@github.com:confluentinc/libserdes.git
